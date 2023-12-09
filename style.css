@@ -415,10 +415,11 @@ h3 {
     height: 100%;
     overflow-y: auto;
     overflow-x: hidden;
+    gap: 10px;
 }
 
 .scrollable-container {
-    flex: 1 0 30%;
+    flex: 1 0 calc(33.33% - 20px);
     height: 300px;
     overflow-y: auto;
     overflow-x: hidden;
