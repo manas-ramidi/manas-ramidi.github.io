@@ -418,10 +418,12 @@ h3 {
 }
 
 .scrollable-container {
-    flex: 1;
+    flex: 1 0 30%;
+    height: 300px;
     overflow-y: auto;
     overflow-x: hidden;
     border: 1px solid #ccc;
     padding: 20px;
     box-sizing: border-box;
+    margin: 10px;
 }
