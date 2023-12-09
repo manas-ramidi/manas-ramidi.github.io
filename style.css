@@ -412,12 +412,12 @@ h3 {
 .blog-container {
     display: flex;
     height: 100%;
-    overflow-x: auto;
+    /*overflow-x: auto;*/
 }
 
 .scrollable-container {
     flex: 1;
-    overflow-x: auto;
+    overflow-y: auto;
     border: 1px solid #ccc;
     padding: 20px;
     box-sizing: border-box;
