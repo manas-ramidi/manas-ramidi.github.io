@@ -428,3 +428,16 @@ h3 {
     box-sizing: border-box;
     margin: 10px;
 }
+
+.post-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .post-container img {
+    width: 100%; /* Ensure image fits container width */
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
