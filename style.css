@@ -440,4 +440,38 @@ h3 {
     height: auto;
     margin-bottom: 10px;
   }
+
+
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+  
+  .container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border-radius: 5px;
+  }
+  
+  /* Responsive layout - makes the menu and the right column stack on top of each other */
+  @media (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
   
