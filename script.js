@@ -1,3 +1,4 @@
+/*
 (function(i,s,o,g,r,a,m){
     i['GoogleAnalyticsObject']=r;
     i[r]=i[r]||function(){
@@ -22,6 +23,7 @@
     s.src = '//static.getclicky.com/js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(s);
   })();
+*/
   
   var coll = document.getElementsByClassName("collapsible");
   var i;
