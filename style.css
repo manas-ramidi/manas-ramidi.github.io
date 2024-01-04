@@ -452,6 +452,7 @@ h3 {
     content: "";
     clear: both;
     display: table;
+    text-align:center
   }
   
   .column {
