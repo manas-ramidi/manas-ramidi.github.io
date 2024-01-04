@@ -463,7 +463,8 @@ h3 {
   .container {
     background-color: #f2f2f2;
     padding: 5px 20px 15px 20px;
-    border-radius: 5px;
+    border-radius: 15px;
+    height: 200px;
   }
   
   /* Responsive layout - makes the menu and the right column stack on top of each other */
