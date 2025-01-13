@@ -476,6 +476,48 @@ h3 {
     }
   }
 
+/* Light Mode (default) */
+:root {
+    --bg-color: #ffffff;
+    --text-color: #5f5f5f;
+    --link-color: #0d5db8;
+    --header-bg: #f2f2f2;
+    --border-color: #ddd;
+}
+
+/* Dark Mode */
+.dark-mode {
+    --bg-color: #1e1e1e;
+    --text-color: #cfcfcf;
+    --link-color: #4a85c8;
+    --header-bg: #333333;
+    --border-color: #444444;
+}
+
+/* Apply Variables */
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+a {
+    color: var(--link-color);
+}
+
+a:hover {
+    border-bottom: 1px solid var(--link-color);
+}
+
+#header {
+    background-color: var(--header-bg);
+    border-bottom: 1px solid var(--border-color);
+}
+
+table {
+    border-color: var(--border-color);
+}
+
+
   /*
   .collapsible {
     background-color: #777;
