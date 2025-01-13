@@ -517,6 +517,21 @@ table {
     border-color: var(--border-color);
 }
 
+.toggle-container button {
+    font-size: 20px;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+.toggle-container button:hover {
+    color: var(--link-color);
+}
+
+.toggle-container i {
+    font-size: 24px;
+    transition: opacity 0.3s ease;
+}
+
 
   /*
   .collapsible {
