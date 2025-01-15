@@ -4,100 +4,47 @@
   <title>Mastery</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../style.css">
   <style>
-    body {
-      background-color: white;
-      color: black;
-      font-family: roboto, sans-serif;
-    }
-
-    li {
-      margin: 0 10px;
-    }
-
-    a {
-      color: white;
-      text-decoration: none;
-    }
-
-    .container {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 50px;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-    }
-    
-    .container2 {
-      max-width: 960px;
-      margin: 0 auto;
-      padding-left: 50px;
-      padding-right: 50px;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-    }
-
-    .image {
-      width: 50%;
-      padding-right: 100px;
-      padding-left: 100px;
-    }
-
-    .image img {
-      width: 100%;
-      border-radius: 10px;
-    }
-
-    .text {
-      width: 50%;
-    }
-
-    h1 {
-      font-size: 50px;
-      margin-bottom: 20px;
-    }
-
-    h2 {
-      font-size: 24px;
-      margin-bottom: 20px;
-    }
-
-    .author {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      margin-bottom: 20px;
-    }
-
-    .author img {
-      width: 30px;
-      height: 30px;
-      border-radius: 50%;
-      margin-right: 10px;
-    }
-
-    .text p {
-      font-size: 18px;
-      line-height: 1.5;
-    }
+    ul {
+    font-size: 14px;
+    line-height: 24px;
+    list-style-type: disc;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    color: var(--timeline-color);
+}
   </style>
 </head>
-<body>
-  <div class="container">
-    <div class="image">
-      <img src="../blogs/Mastery.jpeg" alt="Atomic Habits">
+<body id="body">
+  <div id="main">
+    <header id="header">
+      <a href="../../index.html">About</a>
+      <a href="../../blog.html">Knowledge Blog</a>
+      <input
+        type="checkbox"
+        class="sr-only"
+        id="darkmode-toggle"
+      >
+      <label for="darkmode-toggle" class="toggle">
+        <span>Toggle dark mode</span>
+      </label>
+    </header>
+    
+    <div class="blog-container">
+      <div class="blog-image">
+        <img src="../blogs/Mastery.jpeg" alt="Mastery">
+      </div>
+      <div class="text">
+        <h1>Mastery</h1>
+        <h2>Robert Greene</h2>
+      </div>
     </div>
-    <div class="text">
-      <h1>Mastery</h1>
-      <h2>Robert Greene</h2>
-      </div>
-      </div>
+    
+    <div class="blog-container2">
       
-      <div class="container2">
-        <p>
-            • In every work of genius recognise our own rejected thoughts; they come back to us with a certain alienated majesty.<br>
+      <p>
+        • In every work of genius recognise our own rejected thoughts; they come back to us with a certain alienated majesty.<br>
 
 • Da Vinci was haunted by a question: is there some kind of force from within that makes all living things grow and transform themselves ? <br>
 • Da Vici didn't care about finished product, it was search and process of creating something that inspired him.<br>
@@ -174,13 +121,13 @@ IV<br>
 • The more you fathom about people's past and way of thinking, the more you can enter their spirits.<br><br>
 The 7 Deadly Realities <br>
 1. Envy:<br>
-  - people won't admit envy even to themselves.<br>
-  - people who become overly friendly in the first stages are often envious. <br>
-  - avoid being too perfect. <br>
-  - self depreciating humor will work.<br>
+- people won't admit envy even to themselves.<br>
+- people who become overly friendly in the first stages are often envious. <br>
+- avoid being too perfect. <br>
+- self depreciating humor will work.<br>
 2. Conformism:<br>
-  - workplace as a kind of theater where you always wear a mask.<br>
-  - let your work subtly demonstrate your individual spirit.<br><br>
+- workplace as a kind of theater where you always wear a mask.<br>
+- let your work subtly demonstrate your individual spirit.<br><br>
 
 Strategies for acquiring social intelligence <br>
 1. Speak through your Work<br>
@@ -202,38 +149,38 @@ Steps <br>
 - The task you choose to work on must have an obsessive element.<br>
 - Tasks should be above your level - higher the goal, more energy from within.<br>
 2. Creative Strategies <br>
-  A. Cultivate Negative Capability<br>
+A. Cultivate Negative Capability<br>
 - Let mind absorb itself in experiences without forming judgment.<br> 
 -Suspend judging everything, entertain opposite view points, seek uncertainty, now come back to judge.<br>
-  B. Allow for Serendipity <br>
-      a) Widen search as far as.<br>
+B. Allow for Serendipity <br>
+  a) Widen search as far as.<br>
 Look more than generally required and tired your self<br>
-      b) Maintain an openness and looseness of spirit. <br>
- - Pasteur accidentally discovered vaccination by focusing other subjects and freeing his mind.<br>
+  b) Maintain an openness and looseness of spirit. <br>
+- Pasteur accidentally discovered vaccination by focusing other subjects and freeing his mind.<br>
 - “Chance favours only the prepared mind.”- Louis.<br> 
 - Edison discovered phonograph while trying to fix sound problem later on.<br>
 C. Alternate the mind through Current<br>
- - Current is a mental electric charge that gains power through alteration.<br>
- - Make prototypes and take public opinion like Fuller.<br>
+- Current is a mental electric charge that gains power through alteration.<br>
+- Make prototypes and take public opinion like Fuller.<br>
 D. Alter your perspective <br>
- - By looking at how instead of what.<br>
- - Da Vinci spent hours on light hitting geometric objects,shadows and folds on a gown. <br>
- - Page and Brin focussed on trivial flaws in AltaVista- ranking searches on number of times of mentioning subjects in article and developed PageRank algo - no. of times the article has been linked to.<br>
- - Earlier, doctors considered diseases as from outside the body. But Hopkins reversed that perspective for scurvy. Play reversal of mind and emotions.<br>
+- By looking at how instead of what.<br>
+- Da Vinci spent hours on light hitting geometric objects,shadows and folds on a gown. <br>
+- Page and Brin focussed on trivial flaws in AltaVista- ranking searches on number of times of mentioning subjects in article and developed PageRank algo - no. of times the article has been linked to.<br>
+- Earlier, doctors considered diseases as from outside the body. But Hopkins reversed that perspective for scurvy. Play reversal of mind and emotions.<br>
 E. Revet to primal forms of intelligence<br>
- - Edison, Ford thought in 3D models.<br>
+- Edison, Ford thought in 3D models.<br>
 3. Creative breakthrough- tension and insight<br>
 -Einstein gave up gave up 10 years of work, went to bed early but next morning he came up with solution.<br>
 -Emotional Pitfalls<br>
-  a. Complacency: taking learned ideas for granted.<br>
-  b. Conservatism: tether to convectional ideas.<br>
-  c. Dependency: relying on masters.<br>
-  d. Impatience:<br>
-       Da Vinci used "obstinato rigore" ~ stubborn rigor as his Motto. Find pleasure in pain.<br>
-  e. Grandiosity: dangers from praise or success. Falling to ego.<br>
-  f. Inflexibility: we have to doubt but not loose optimism.<br>
+a. Complacency: taking learned ideas for granted.<br>
+b. Conservatism: tether to convectional ideas.<br>
+c. Dependency: relying on masters.<br>
+d. Impatience:<br>
+   Da Vinci used "obstinato rigore" ~ stubborn rigor as his Motto. Find pleasure in pain.<br>
+e. Grandiosity: dangers from praise or success. Falling to ego.<br>
+f. Inflexibility: we have to doubt but not loose optimism.<br>
 <br>
- Strategies for creative active phase <br>
+Strategies for creative active phase <br>
 2. Fact of great Yield :<br>
 -VS Ramachandran looked for any anomalies in neuralscience that could challenge conventional wisdom, he then had to explain in science and implications beyond his field.<br>
 - Instead of beginning with a broad goal, search for evidence that is strange.<br>
@@ -243,7 +190,7 @@ E. Revet to primal forms of intelligence<br>
 - they had no degree but built their own engine, blades based on their research. <br>
 - on Dec 17, 1903 first flight for 59 seconds. <br>
 4. Natural Powers:<br>
- - The greatest danger Calatrava faced was that has energy would go flat or the time as design dragged on into ears he would lose touch with his original vision. To combat this, Calatrava would maintain an attitude of constant dissatisfaction. <br>
+- The greatest danger Calatrava faced was that has energy would go flat or the time as design dragged on into ears he would lose touch with his original vision. To combat this, Calatrava would maintain an attitude of constant dissatisfaction. <br>
 - By pushing for perfection projects never froze. <br>
 - if you begin with a feeling of tightness, you will stifle the associative powers of the brain.<br>
 5. Open Field<br>
@@ -268,7 +215,7 @@ Keys to Mastery<br>
 - German general Erwin Rommel, flew over terrains, he was mechanic so knew about tank's capacities, studied psychology of opposite general, interacted with all soilders. He studied every at great depth untill details becomes internalized. <br>
 <br>
 Firstly  It is through hard work the depth of their knowledge and of development of their analytical skills that they reach higher form of intelligence.<br>
- Secondly when the experience this intutions  invariably subjected to a higher degree of reflection and reasoning. <br>
+Secondly when the experience this intutions  invariably subjected to a higher degree of reflection and reasoning. <br>
 - You must see every hardship  as a trial along the way as seeds that are being plundered for for the cultivation if you know how to grow them. <br>
 -  Understand: this intuitive form of intelligence was developed to help us process complex layers of information and gain sense of the whole.<br>
 - Scientists like Faraday, Maxwell, Einstein focused on relationships between phenomena, fields of force instead of individual particles.<br><br> 
@@ -277,7 +224,7 @@ Strategies to Mastery <br>
 
 Along with time and focus, X factor- self confidence in forging offbeat paths is needed.<br> 
 1. Connect to Environment- Primal powers<br> 
- -Caroline Islanders navigated hundreds of miles by observing and visualising stars day/night, currents, wind, birds etc, considered them at rest<br>
+-Caroline Islanders navigated hundreds of miles by observing and visualising stars day/night, currents, wind, birds etc, considered them at rest<br>
 - "Nothing is taken at face value", nothing is unconventional <br>
 - Be primitive, see technology as means than end<br>
 2. Play to your strengths - Supreme Focus<br>
@@ -306,16 +253,10 @@ A. - Einstein knew he was bad at experiments which were common of other scientis
 - He began to entertain radical idea that humans evolved from primitive lifeforms. <br>
 - once again after near death, his daemon channelled into all kinds of work.<br>
 - Writing in morning, Scientific experiments in afternoon, discussions on aesthetics, science, politics in evenings -  all at 60s.<br>
- The problem with most people he felt is that they built artificial walls around subjects and ideas. The real thinker sees the connection's grasped the essence of life force operating in every individual instance.<br>
+The problem with most people he felt is that they built artificial walls around subjects and ideas. The real thinker sees the connection's grasped the essence of life force operating in every individual instance.<br>
 - By reading more, adding his reasoning he could predict futures- French Revolution, rise of USA.<br>
 
-          </p>
+      </p>
     </div>
-  
 </body>
 </html>
-
-  
-    
- 
-
