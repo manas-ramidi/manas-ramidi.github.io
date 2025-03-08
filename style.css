@@ -642,31 +642,6 @@ body:has(#darkmode-toggle:checked) {
     --strong-color: #6e5bb5;
 }
 
-/* Slideshow Container */
-.slideshow-container {
-    position: relative;
-    width: 90%;
-    max-width: 600px;
-    margin: auto;
-    overflow: hidden;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-}
-
-/* Image Wrapper (Scrollable) */
-.slideshow-wrapper {
-    display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scrollbar-width: none; /* Hide scrollbar in Firefox */
-    -ms-overflow-style: none; /* Hide scrollbar in IE/Edge */
-}
-
-/* Hide scrollbar in WebKit browsers */
-.slideshow-wrapper::-webkit-scrollbar {
-    display: none;
-}
-
 /* Gallery Grid Container */
 .gallery-grid {
     display: grid;
