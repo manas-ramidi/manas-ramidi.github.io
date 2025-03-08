@@ -39,4 +39,12 @@
       }
     });
   }
+
+  const slideshow = document.getElementById('slideshow');
+
+function scrollSlides(direction) {
+    const slideWidth = slideshow.clientWidth;
+    slideshow.scrollBy({ left: slideWidth * direction, behavior: 'smooth' });
+}
+
   
