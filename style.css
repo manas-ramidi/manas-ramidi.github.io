@@ -667,43 +667,27 @@ body:has(#darkmode-toggle:checked) {
     display: none;
 }
 
-/* Individual Slide */
-.slide {
-    flex: 0 0 100%;
-    scroll-snap-align: start;
-    position: relative;
+/* Gallery Grid Container */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive columns */
+    gap: 10px; /* Space between images */
+    padding: 20px;
+    justify-content: center;
 }
 
-.slide img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
+/* Images inside the Grid */
+.gallery-grid img {
+    width: 100%; /* Make images fill their grid cell */
+    height: auto; /* Keep aspect ratio */
+    border-radius: 8px; /* Optional: Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds depth */
+    transition: transform 0.3s ease-in-out; /* Hover effect */
 }
 
-/* Navigation Buttons */
-.prev, .next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
+/* Hover Effect */
+.gallery-grid img:hover {
+    transform: scale(1.05); /* Slight zoom effect */
     cursor: pointer;
-    border-radius: 50%;
-    transition: 0.3s;
-    font-size: 18px;
-}
-
-.prev:hover, .next:hover {
-    background: rgba(0, 0, 0, 0.8);
-}
-
-.prev {
-    left: 10px;
-}
-
-.next {
-    right: 10px;
 }
 
